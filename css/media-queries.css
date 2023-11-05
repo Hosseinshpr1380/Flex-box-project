@@ -1,0 +1,137 @@
+@media (min-width: 576px) {
+    .search-icon {
+        color: #fff !important;
+        background-color: #FF4A52;
+        top: 0;
+        bottom: 0;
+        right: 45px;
+        width: 45px;
+        position: absolute;
+    }
+
+    .drop-down-menu {
+        position: absolute;
+        background-color: #abff4a;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 45px;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      
+    }
+    .content-l{
+        margin-top:60px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    .drop-down-menu {
+        display: none;
+    }
+
+    .search-icon {
+        top: 0;
+        bottom: 0;
+        right: 0;
+
+    }
+
+    .search-bar {
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .search-form {
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: row;
+
+    }
+
+    .search-form input {
+        margin: 10px;
+        width: 200px;
+
+    }
+
+    .search-btn {
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .search-icon {
+        width: 100px;
+    }
+
+    .search-bar {
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .search-form {
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: row;
+
+    }
+
+    .newsletter-container{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter-mail{
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .newsletter-btn{
+        width:6vw;
+        font-size: 15px;
+       margin-left: 5px;
+    }
+    .newsletter-text{
+        
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width: 1400px) {}
